@@ -17,3 +17,11 @@ export const validateTodo = (schema) => async (req, res, next) => {
         return res.status(400).json({ errors: err.errors });
     }
 };
+
+
+
+/// 20 todo
+//skip = (page - 1) * limit
+
+// page = 7
+// limit = 5
